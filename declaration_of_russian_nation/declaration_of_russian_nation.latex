@@ -9,9 +9,10 @@
 \usepackage{graphicx}
 \usepackage{cmap}
 
-\graphicspath{{pictures/}}
+\graphicspath{{../pictures/}}
 \DeclareGraphicsExtensions{.png}
 
+\setkomafont{section}{\rmfamily}
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\labelenumi}{\arabic{enumi}.}
 \renewcommand{\labelenumii}{\roman{enumii}}
